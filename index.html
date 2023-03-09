@@ -4,15 +4,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Einführung</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,900;1,400;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ol>
-        <li><a href="recipes/lasagna.html">Köstliche Lasagne</a></li>
-        <li><a href="recipes/pizza.html">Türkische Pizza</a></li>
-        <li><a href="recipes/nudeln.html">Leckere Nudeln</a></li>
-        <li><a href="recipes/burger.html">Burger Brothers</a></li> 
-    </ol>
+    <!--First section-->
+    <div class="banner">
+        <div class="navbar">
+            <img src="./recipes/img/avataaars.svg" class="logo" img alt="logo">
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">About us</a></li>
+        </div> 
+        <!--Second section-->
+        <div class="content">
+            <h1>Odin Recipes</h1>
+            <p>Click of the Button do you want</p>
+            <div>
+                <form>
+                    <button type="submit" formaction="./recipes/burger.html"><span></span>Burger Rezept</button>
+                    <button type="submit" formaction="./recipes/lasagna.html"><span></span>Lasagne Rezept</button>
+                    <button type="submit" formaction="./recipes/nudeln.html"><span></span>Nudeln Rezept</button>
+                    <button type="submit" formaction="./recipes/pizza.html"><span></span>Pizza Rezept</button>
+                </form>           
+            </div>
+        </div>  
+    </div>
+
+    
     
 </body>
 </html>

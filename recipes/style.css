@@ -1,0 +1,147 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/background.jpg);
+    background-size: cover; 
+    background-position: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo {
+    width:60px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.row {
+    display: flex;
+    height: 33%;
+    align-items: center; 
+}
+
+.col {
+    flex-basis: 50%;
+    padding-top: 10%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 70px;
+    
+
+}
+.zutaten_burger{
+    color: #fff;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.zutaten_lasagne{
+    color: #fff;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.description_burger {
+    color: #fff;
+    font-size: 10px;
+    line-height: 20px;
+    position: absolute;
+}
+
+.description_lasagne {
+    color: #fff;
+    font-size: 10px;
+    line-height: 20px;
+    position: absolute;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(img/burger-g29d8609ae_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1_burger {
+    background-image: url(img/burger-g29d8609ae_1280.jpg);
+}
+.card2_burger {
+    background-image: url(img/hamburger-gb02420fe7_1280.jpg);
+}
+.card3_burger {
+    background-image: url(img/rindfleisch-burger-von-vorne-mit-speck-und-besteck.jpg);
+}
+.card4_burger {
+    background-image: url(img//vorderansicht-burger-auf-einem-staender.jpg);
+}
+
+.card1_lasagne {
+    background-image: url(img/vertikaler-schuss-einer-koestlichen-lasagne-auf-einem-weissen-teller.jpg);
+}
+.card2_lasagne {
+    background-image: url(img/vegetarischer-gemueseauflauf-mit-zucchini-pilzen-und-kirschtomaten.jpg);
+}
+.card3_lasagne {
+    background-image: url(img/klassische-lasagne-mit-bolognese-sauce.jpg);
+}
+.card4_lasagne {
+    background-image: url(img/meal-g3a460a6b5_640.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+/*.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:white;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+}
+
